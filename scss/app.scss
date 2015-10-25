@@ -1,6 +1,19 @@
 @import "settings";
 @import "foundation";
 
+.black-square {
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg: black
+  );
+}
+.gray-square {
+  @include panel(
+    // Sets the panel background color. Default: $panel-pg
+    $bg: gray
+  );
+}
+
 // Or selectively include components
 // @import
 //   "foundation/components/accordion",
